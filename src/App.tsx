@@ -5,6 +5,11 @@ import "./App.css";
 function App() {
 	return (
 		<main>
+			<header className="header">
+				<h1>
+					<a href="">react-highlightable-input</a>
+				</h1>
+			</header>
 			<section>
 				<h1 className="heading">
 					Highlight mentions with @ symbol using{" "}
@@ -27,7 +32,7 @@ function App() {
 					</a>{" "}
 					method
 				</h1>
-				<p>
+				<p className="note">
 					PS: Do not add padding or margin for your custom highlight styles
 					(some issues with it)
 				</p>

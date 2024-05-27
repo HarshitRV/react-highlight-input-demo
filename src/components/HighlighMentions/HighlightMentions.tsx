@@ -26,8 +26,9 @@ export default function HighlightMention() {
 		<div>
 			<div
 				style={{
-					border: "1px solid black",
+					border: "1px solid white",
 					padding: "5px",
+					borderRadius: "5px",
 				}}>
 				<HighlightableTextInput
 					inputRef={inputRef}
